@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+header .header-alert {
+    background-color: black;
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+header .header-alert h3 {
+    color: white;
+    font-size: 1rem;
+}
+
+
+header .header-title {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+header .header-title h1 {
+    font-size: 1.5rem;
+}
+
+.banner {
+    height: 280px;
+    background: url('../assets/pexels-paige-thompson-13580636.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.banner-filter-effect {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+.banner-filter-effect .banner-info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    gap: 0.75rem;
+    color: white;
+}
+
+.banner-info h2 {
+    font-weight: 700;
+}
+
+.banner-info p {
+    max-width: 400px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .description{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.content .tenis-list {
+    padding: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.tenis-card {
+    background-color: #EBE9EA;
+    max-width: 300px;
+    width: 100%;
+    height: 200px;
+    border-radius: 0.25rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: black;
+    padding: 0.5rem;
+}
+
+.footer footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

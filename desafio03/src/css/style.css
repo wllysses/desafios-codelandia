@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.apresentation {
+    background-color: #D7D5FF;
+    padding: 4rem 0;
+}
+
+.apresentation header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentation header .description {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.description .title-and-subtitle {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.description button {
+    width: 155px;
+    height: 50px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: #6C63FF;
+    color: white;
+}
+
+.cards-list {
+    padding: 1rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.card-item {
+    max-width: 340px;
+    width: 100%;
+    height: 423px;
+    background-color: #D7D5FF;
+}
+
+.card-item .figure {
+    background-color: #FF6363;
+    width: 100%;
+    height: 222px;
+}
+
+.card-item .card-data {
+    padding: 1.5rem;
+}
+
+.form-contact {
+    background-color: #D7D4FF;
+    padding: 5rem 0;
+}
+
+.form-responsive {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: auto;
+}
+
+.form-responsive h3 {
+    text-align: center;
+}
+
+.form-responsive form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 990px) {
+    header {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    header .image {
+        text-align: center;
+    }
+
+    header img {
+        max-width: 80%;
+    }
+
+    .cards-list {
+        justify-content: center;
+    }
+}

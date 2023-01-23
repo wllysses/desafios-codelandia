@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F5F7;
+}
+
+.header {
+    background: linear-gradient(to right, #564DE8, #4B75E2, #3F9DDC);
+    padding: 3rem 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+header .header-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: 700;
+}
+
+header .header-input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.274);
+    border-radius: 5px;
+}
+
+header .header-input input {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+header .header-input input::placeholder {
+    color: white;
+}
+
+.posts-list {
+    padding: 1rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.post-card {
+    border-radius: 0.5rem;
+    background-color: white;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.post-card i {
+    cursor: pointer;
+}
+
+.post-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.favoritePost {
+    color: red;
+}
