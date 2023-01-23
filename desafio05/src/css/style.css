@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
+    font-family: "Poppins", sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header {
+    padding: 3rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.infos-side, .image-side {
+    width: 50%;
+}
+
+.image-side img {
+    max-width: 100%;
+}
+
+.infos-side .title-and-subtitle h3 {
+    font-weight: 700;
+}
+
+.infos-side .title-and-subtitle h1 {
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.infos-side .description-and-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.infos-side .description-and-buttons p {
+    max-width: 450px;
+}
+
+.infos-side .description-and-buttons .buttons button {
+    padding: 1rem;
+    color: white;
+    border: none;
+}
+
+.btn-watch-now {
+    background-color: #658E76;
+}
+
+.btn-watch-trailer {
+    background-color: #325F5F;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 1200px) {
+    .infos-side .title-and-subtitle h1  {
+        font-size: 3rem;
+    }
+}
+
+
+@media(max-width: 810px) {
+    .content-container {
+        flex-direction: column-reverse;
+    }
+
+    .content-container .infos-side, .image-side {
+        width: 100%;
+    }
+}
